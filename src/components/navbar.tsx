@@ -55,12 +55,12 @@ function Navbar() {
           </div>
 
           {/* Search Bar */}
-          <div className="w-full  md:w-auto flex-1 md:flex-grow-0 md:mx-8">
+          <div className="w-full md:w-auto flex-1 md:flex-grow-0 md:mx-8">
             <SearchBar />
           </div>
 
           {/* Cart and User Section */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 md:gap-8">
             <Link href="/cart" className="relative flex items-center gap-3 bg-white py-2 px-4 rounded-lg shadow-md">
               <LuShoppingCart size={20} />
               <p className="text-[#272343] font-semibold">Cart</p>
