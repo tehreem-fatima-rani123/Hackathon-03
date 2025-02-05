@@ -29,27 +29,7 @@ export default function Header() {
                       </li>
         </ul>
 {/* 
-        Categories Dropdown
-        <div className="relative hidden md:block">
-          <Dropdown/>
-          <ul className="absolute left-0 mt-2 w-40 bg-white shadow-md rounded-lg border border-gray-300 hidden group-hover:block">
-            <li className="hover:bg-gray-100">
-              <Link href="/category/sofa" className="block px-4 py-2 text-gray-700">Sofa</Link>
-            </li>
-            <li className="hover:bg-gray-100">
-              <Link href="/category/stool" className="block px-4 py-2 text-gray-700">Stool</Link>
-            </li>
-            <li className="hover:bg-gray-100">
-              <Link href="/category/chair" className="block px-4 py-2 text-gray-700">Chair</Link>
-            </li>
-            <li className="hover:bg-gray-100">
-              <Link href="/category/table" className="block px-4 py-2 text-gray-700">Table</Link>
-            </li>
-            <li className="hover:bg-gray-100">
-              <Link href="/category/bed" className="block px-4 py-2 text-gray-700">Bed</Link>
-            </li>
-          </ul>
-        </div> */}
+ 
 
         {/* Contact Info */}
         <div className="text-lg">
