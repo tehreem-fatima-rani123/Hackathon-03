@@ -129,8 +129,8 @@ export default function AllProduct() {
       isSale: true,
       originalPrice: 200,
     },
-    { id: 11, title: "Foldable Outdoor Chair", price: 40, image: "/black.jpeg" },
-    { id: 12, title: "Foldable Outdoor Chair", price: 40, image: "/image (00).png" },
+    { id: 11, title: "Foldable Outdoor Chair", price: 40, image: " /black.jpeg " },
+    { id: 12, title: "Foldable Outdoor Chair", price: 40, image: " /image (00).png " },
     { id: 13, title: "Foldable Outdoor Chair", price: 40, image: "/product card.png" },
     { id: 14, title: "Foldable Outdoor Chair", price: 40, image: "/blue.jpeg" },
     { id: 15, title: "Foldable Outdoor Chair", price: 40, image: "/naina.png" },
@@ -139,7 +139,7 @@ export default function AllProduct() {
 
   return (
     <div className="max-w-[1321px] container mx-auto px-4 py-20">
-      <h1 className="text-3xl text-start font-semibold text-[#1C1B1F] tracking-tight mb-8">
+      <h1 className="text-3xl text-center font-semibold text-[#1C1B1F] tracking-tight mb-8">
         ALL PRODUCTS
       </h1>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
