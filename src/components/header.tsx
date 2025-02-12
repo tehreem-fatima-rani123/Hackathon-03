@@ -52,7 +52,7 @@ export default function Header() {
                 <Link href="/product" className="hover:text-[#007580] my-3">Product</Link>
                 <Link href="/faqs" className="hover:text-[#007580] my-3">Pages</Link>
                 <Link href="/about" className="hover:text-[#007580] my-3">About</Link>
-                <div className="flex justify-center w-full sm:w-auto">
+                <div className="flex justify-center ">
   <SearchBar />
 </div>
 
