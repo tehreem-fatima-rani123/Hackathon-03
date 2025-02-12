@@ -55,15 +55,7 @@ export default function Header() {
                 <div className="flex justify-center w-full sm:w-auto">
   <SearchBar />
 </div>
-<SignedOut>
-<SignInButton>
-<Button  className="border-none h-1 w-7 hover:bg-[#F0F2F3]  bg-white text-black">Sign In</Button>
 
-</SignInButton>
-</SignedOut>
-<SignedIn>
-<UserButton />
-</SignedIn>
               
                 </li>
             </ul>
