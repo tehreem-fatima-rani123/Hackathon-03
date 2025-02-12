@@ -49,7 +49,7 @@ const SearchBar = () => {
   };
 
   return (
-<div className="relative w-96 mx-auto my-4 hidden sm:block">
+<div className="relative w-96 mx-auto my-4 ">
 <form onSubmit={handleSearch} className="flex items-center border rounded-lg p-2 w-full">
         <input
           type="text"
